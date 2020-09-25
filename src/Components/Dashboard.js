@@ -22,7 +22,7 @@ onInputChange(e)
 
     const result= this.state.allUsers.filter((user)=>
     {
-        const {name, meail,picture}=user;
+        const {name, mail,picture}=user;
         const fullName=`${name.title} ${name.first} ${name.last}`
         const isIncluded=fullName.toLowerCase().includes(searchValue);
 
