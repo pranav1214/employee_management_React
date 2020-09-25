@@ -3,6 +3,7 @@ import Cards from './Components/Card';
 import {Spinner} from 'react-bootstrap';
 import LoginForm from './Components/LoginForm';
 import Dashboard from './Components/Dashboard';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const name = "Pranav";
 
